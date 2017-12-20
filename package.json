@@ -1,17 +1,31 @@
 {
   "name": "ember-route-local-storage",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Remember route-based information using browser local storage.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "cybertooth.io",
+    "email": "dev@cybertooth.io",
+    "url": "http://cybertooth.io"
+  },
+  "contributors": [
+    {
+      "name": "Dan Nelson",
+      "email": "dan@cybertooth.io",
+      "url": "https://nadnoslen.github.io/"
+    }
+  ],
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybertoothca/ember-route-local-storage.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
